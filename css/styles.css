@@ -1,0 +1,33 @@
+.basicLightbox {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.basicLightbox img {
+  width: 1112px !important;
+}
+
+img {
+  width: 360px;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.044);
+}
+
+.gallery {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+  list-style: none;
+}
+
+.gallery-item {
+  width: 360px;
+}
